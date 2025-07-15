@@ -1,0 +1,1454 @@
+Trial 1
+
+Executing initialize
+
+-----------------------------------------
+|         |         |         | W   P   |
+-----------------------------------------
+|         |       G |     P   |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|   A>    |         |         |     P   |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+  Try 1
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(1).
+
+:- dynamic position/3.
+
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+
+:- dynamic wall/3.
+
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|         |         |         | W   P   |
+-----------------------------------------
+|         |       G |     P   |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |   A>    |         |     P   |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(2).
+
+:- dynamic position/3.
+
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+
+:- dynamic wall/3.
+
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|         |         |         | W   P   |
+-----------------------------------------
+|         |       G |     P   |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         |   A>    |     P   |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [no,yes,no,no,no]
+Atoms = [breeze]
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(3).
+
+:- dynamic position/3.
+
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+
+:- dynamic breeze/3.
+
+breeze(_, _, 3).
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+
+:- dynamic wall/3.
+
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+Aaaaaaaaaaaaaaaaaaa!
+
+Executing goforward
+
+-----------------------------------------
+|         |         |         | W   P   |
+-----------------------------------------
+|         |       G |     P   |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         |         |   A>P   |
+-----------------------------------------
+agent_orientation(0)
+agent_health(dead)
+agent_arrows(1)
+agent_gold(0)
+
+Executing restart
+
+-----------------------------------------
+|         |         |         | W   P   |
+-----------------------------------------
+|         |       G |     P   |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|   A>    |         |         |     P   |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+  Actions = []
+Trial 1
+
+Executing initialize
+
+-----------------------------------------
+|     P   |         |         |       G |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|   A>    |         |         |         |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+  Try 1
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(1).
+
+:- dynamic position/3.
+
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+
+:- dynamic wall/3.
+
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |         |         |       G |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |   A>    |         |         |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(2).
+
+:- dynamic position/3.
+
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+
+:- dynamic wall/3.
+
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |         |         |       G |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |   A>    |         |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [yes,no,no,no,no]
+Atoms = [stench]
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(3).
+
+:- dynamic position/3.
+
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+
+:- dynamic wall/3.
+
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |         |         |       G |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |   A>    |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(4).
+
+:- dynamic position/3.
+
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+
+:- dynamic wall/3.
+
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |         |         |       G |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |   A>    |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [no,no,no,yes,no]
+Atoms = [bump]
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(5).
+
+:- dynamic position/3.
+
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = turnleft
+
+Executing turnleft
+
+-----------------------------------------
+|     P   |         |         |       G |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |   A^    |
+-----------------------------------------
+agent_orientation(90)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(6).
+
+:- dynamic position/3.
+
+position(1, 4, 6).
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(north, 6).
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(turnleft, 5).
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |         |         |       G |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |   A^    |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+agent_orientation(90)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [yes,no,no,no,no]
+Atoms = [stench]
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(7).
+
+:- dynamic position/3.
+
+position(2, 4, 7).
+position(1, 4, 6).
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(north, 7).
+orientation(north, 6).
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 7).
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 6).
+act(turnleft, 5).
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |         |         |       G |
+-----------------------------------------
+|         |         |         |   A^    |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+agent_orientation(90)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(8).
+
+:- dynamic position/3.
+
+position(3, 4, 8).
+position(2, 4, 7).
+position(1, 4, 6).
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(north, 8).
+orientation(north, 7).
+orientation(north, 6).
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 7).
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+
+:- dynamic bump/3.
+
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 7).
+act(goforward, 6).
+act(turnleft, 5).
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |         |         |   A^  G |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+agent_orientation(90)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+
+Log_see
+Percepts = [no,no,yes,no,no]
+Atoms = [glitter]
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(9).
+
+:- dynamic position/3.
+
+position(4, 4, 9).
+position(3, 4, 8).
+position(2, 4, 7).
+position(1, 4, 6).
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(north, 9).
+orientation(north, 8).
+orientation(north, 7).
+orientation(north, 6).
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 7).
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+glitter(4, 4, 9).
+
+:- dynamic bump/3.
+
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+gold1(4, 4).
+
+:- dynamic act/2.
+
+act(goforward, 8).
+act(goforward, 7).
+act(goforward, 6).
+act(turnleft, 5).
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = grab
+You now have 1 piece(s) of gold!
+
+Executing grab
+
+-----------------------------------------
+|     P   |         |         |   A^    |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+agent_orientation(90)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(1)
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(10).
+
+:- dynamic position/3.
+
+position(4, 4, 10).
+position(4, 4, 9).
+position(3, 4, 8).
+position(2, 4, 7).
+position(1, 4, 6).
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(north, 10).
+orientation(north, 9).
+orientation(north, 8).
+orientation(north, 7).
+orientation(north, 6).
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 7).
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+glitter(4, 4, 9).
+
+:- dynamic bump/3.
+
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(grab, 9).
+act(goforward, 8).
+act(goforward, 7).
+act(goforward, 6).
+act(turnleft, 5).
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |         |         |   A^    |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+agent_orientation(90)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(1)
+
+Log_see
+Percepts = [no,no,no,yes,no]
+Atoms = [bump]
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(11).
+
+:- dynamic position/3.
+
+position(4, 4, 11).
+position(4, 4, 10).
+position(4, 4, 9).
+position(3, 4, 8).
+position(2, 4, 7).
+position(1, 4, 6).
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(north, 11).
+orientation(north, 10).
+orientation(north, 9).
+orientation(north, 8).
+orientation(north, 7).
+orientation(north, 6).
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 7).
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+glitter(4, 4, 9).
+
+:- dynamic bump/3.
+
+bump(4, 4, 11).
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(4, 4, north).
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 10).
+act(grab, 9).
+act(goforward, 8).
+act(goforward, 7).
+act(goforward, 6).
+act(turnleft, 5).
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = turnleft
+
+Executing turnleft
+
+-----------------------------------------
+|     P   |         |         |   <A    |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+agent_orientation(180)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(1)
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(12).
+
+:- dynamic position/3.
+
+position(4, 4, 12).
+position(4, 4, 11).
+position(4, 4, 10).
+position(4, 4, 9).
+position(3, 4, 8).
+position(2, 4, 7).
+position(1, 4, 6).
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(west, 12).
+orientation(north, 11).
+orientation(north, 10).
+orientation(north, 9).
+orientation(north, 8).
+orientation(north, 7).
+orientation(north, 6).
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 7).
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+glitter(4, 4, 9).
+
+:- dynamic bump/3.
+
+bump(4, 4, 11).
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(4, 4, north).
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(turnleft, 11).
+act(goforward, 10).
+act(grab, 9).
+act(goforward, 8).
+act(goforward, 7).
+act(goforward, 6).
+act(turnleft, 5).
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |         |   <A    |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+agent_orientation(180)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(1)
+
+Log_see
+Percepts = [no,no,no,no,no]
+Atoms = []
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(13).
+
+:- dynamic position/3.
+
+position(4, 3, 13).
+position(4, 4, 12).
+position(4, 4, 11).
+position(4, 4, 10).
+position(4, 4, 9).
+position(3, 4, 8).
+position(2, 4, 7).
+position(1, 4, 6).
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(west, 13).
+orientation(west, 12).
+orientation(north, 11).
+orientation(north, 10).
+orientation(north, 9).
+orientation(north, 8).
+orientation(north, 7).
+orientation(north, 6).
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 7).
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+
+:- dynamic glitter/3.
+
+glitter(4, 4, 9).
+
+:- dynamic bump/3.
+
+bump(4, 4, 11).
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(4, 4, north).
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 12).
+act(turnleft, 11).
+act(goforward, 10).
+act(grab, 9).
+act(goforward, 8).
+act(goforward, 7).
+act(goforward, 6).
+act(turnleft, 5).
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+
+Executing goforward
+
+-----------------------------------------
+|     P   |   <A    |         |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+agent_orientation(180)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(1)
+
+Log_see
+Percepts = [no,yes,no,no,no]
+Atoms = [breeze]
+
+Log_next
+Knowledge Base
+:- dynamic interaction/1.
+
+interaction(14).
+
+:- dynamic position/3.
+
+position(4, 2, 14).
+position(4, 3, 13).
+position(4, 4, 12).
+position(4, 4, 11).
+position(4, 4, 10).
+position(4, 4, 9).
+position(3, 4, 8).
+position(2, 4, 7).
+position(1, 4, 6).
+position(1, 4, 5).
+position(1, 4, 4).
+position(1, 3, 3).
+position(1, 2, 2).
+position(1, 1, 1).
+position(1, 1, 0).
+
+:- dynamic orientation/2.
+
+orientation(west, 14).
+orientation(west, 13).
+orientation(west, 12).
+orientation(north, 11).
+orientation(north, 10).
+orientation(north, 9).
+orientation(north, 8).
+orientation(north, 7).
+orientation(north, 6).
+orientation(east, 5).
+orientation(east, 4).
+orientation(east, 3).
+orientation(east, 2).
+orientation(east, 1).
+orientation(east, 0).
+
+:- dynamic stench/3.
+
+stench(_, _, 7).
+stench(_, _, 3).
+
+:- dynamic breeze/3.
+
+breeze(_, _, 14).
+
+:- dynamic glitter/3.
+
+glitter(4, 4, 9).
+
+:- dynamic bump/3.
+
+bump(4, 4, 11).
+bump(1, 4, 5).
+
+:- dynamic wall/3.
+
+wall(4, 4, north).
+wall(1, 4, east).
+
+:- dynamic gold1/2.
+
+
+:- dynamic act/2.
+
+act(goforward, 13).
+act(goforward, 12).
+act(turnleft, 11).
+act(goforward, 10).
+act(grab, 9).
+act(goforward, 8).
+act(goforward, 7).
+act(goforward, 6).
+act(turnleft, 5).
+act(goforward, 4).
+act(goforward, 3).
+act(goforward, 2).
+act(goforward, 1).
+act([], 0).
+
+Log_action
+Action = goforward
+Aaaaaaaaaaaaaaaaaaa!
+
+Executing goforward
+
+-----------------------------------------
+|   <AP   |         |         |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+agent_orientation(180)
+agent_health(dead)
+agent_arrows(1)
+agent_gold(1)
+
+Executing restart
+
+-----------------------------------------
+|     P   |         |         |       G |
+-----------------------------------------
+|         |         |         |         |
+-----------------------------------------
+|         |         | W       |         |
+-----------------------------------------
+|   A>    |         |         |         |
+-----------------------------------------
+agent_orientation(0)
+agent_health(alive)
+agent_arrows(1)
+agent_gold(0)
+  Actions = []
+****************
+Tested: 2
+Score: -10008.5[7.7781745930520225]
+Time: 47[22.627416997969522]
+****************
